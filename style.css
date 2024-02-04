@@ -1,0 +1,341 @@
+
+*{
+  font-family:'Inconsolata', monospace;
+}
+
+
+
+body{
+  font-family:'Inconsolata', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 0%);
+  height: 70px;
+  width: 100vw;
+  margin-left: 0px ;
+  margin-right: -10px ;
+  margin-top: -20px;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+
+  position:fixed;
+  overflow: hidden;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.main {
+  overflow: hidden;
+  background-color: #ff0606;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+margin-right: -1px;
+  
+  
+  
+}
+
+.flex-item {
+  
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 1200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.flex-item1 {
+  background-color: #47bfaf;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.flex-item2 {
+  background-color: #000000;
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.flex-item3 {
+  background-color: #47bfaf;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.flex-item4 {
+  background-color: #ffffff;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+
+
+
+.image {
+  width: 70px;
+  height: 70px;
+  
+}
+
+.image2 {
+  margin-left: 0px;
+  height: 250px;
+  max-width: 750px;
+}
+
+.image3 {
+  
+  height: 1000px;
+  max-width: 1000px;
+}
+
+.image4 {
+  margin-left: 100px;
+  height: 500px;
+  max-width: 1000px;
+}
+
+.image5 {
+  margin-left: 100px;
+  height: 500px;
+  max-width: 1000px;
+}
+
+.title {
+  font-weight:600;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  align-items: center;
+}
+
+.button {
+  display: block;
+  position: absolute;
+  background-color: #47bfaf;;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  top: 18px;
+  right: 20px;
+  margin-right: 20px;
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #ffffff;
+}
+
+.nav-menu {
+  margin-left: 38vw;
+  display: flex;
+  flex-direction: row;
+  }
+
+.nav-links {
+margin-left: 5rem;
+text-decoration: none;
+color: rgb(2, 28, 91);
+}
+
+
+.menu-logo {
+display: none;
+}
+
+
+
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container2 {
+  word-wrap: break-word;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: thin;
+  border-color: rgb(230, 235, 238);
+  background-color: rgb(229, 232, 236);
+  width: 95%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.container3 {
+  font-family:'Inconsolata', monospace;
+  background-color: #ffffff;
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+.sub {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.by {
+  margin-top: -10px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.text {
+  word-wrap: break-word;
+  text-align: center;
+  font-weight: 500;
+  margin: 3px;
+
+}
+
+.text1 {
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.fa {
+  padding: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 25px;
+  margin-bottom: 20px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  border-radius: 12px;
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-github {
+  border-radius: 12px;
+  background: #333333;
+  color: white;
+}
+
+.fa-globe {
+  border-radius: 12px;
+  background: #70c9bd;;
+  color: rgb(0, 0, 0);
+}
+
+.fa-envelope {
+  border-radius: 12px;
+  background: #ff4545;
+  color: rgb(255, 255, 255);
+}
+
+
+@media screen and (max-width: 1100px) {
+
+.title {
+  display: none;
+
+}
+
+.image{
+  margin-left: 5px;
+}
+
+.image2 {
+  height: 133px;
+  max-width: 380px;
+}
+
+.flex-item2 {
+  height: 2100px;
+}
+
+.image3 {
+  content: url("vroadmap.png");
+  height: 2100px;
+  max-width: 350px;
+}
+
+.image4 {
+  content: url("updates2.png");
+  height: 350px;
+  width: 350px;
+  margin: 0;
+}
+
+.image5 {
+  content: url("topwhitesmall.png");
+  height: 350px;
+  width: 350px;
+  margin: 0;
+}
+
+.menu-logo {
+  display: none;
+  }
+
+.fa {
+  margin: 5px 4px;
+  margin-bottom: 10px;
+}
+
+
+
+}
+
+
+
