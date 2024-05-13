@@ -64,12 +64,15 @@ margin-right: -1px;
 
 .flex-item1 {
   background-color: #47bfaf;
+  background-image: url("cosmic.png");
+  background-repeat: no-repeat;
   width: 100%;
-  height: 300px;
+  height: 250px;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
+  background-size: cover;
 }
 
 .flex-item2 {
@@ -83,7 +86,7 @@ margin-right: -1px;
 }
 
 .flex-item3 {
-  background-color: #47bfaf;
+  background-color: #ffdf52;
   width: 100%;
   height: 600px;
   display: flex;
@@ -146,7 +149,7 @@ margin-right: -1px;
 .button {
   display: block;
   position: absolute;
-  background-color: #47bfaf;;
+  background-color: #ffdf52;
   font-size: 1rem;
   font-weight: 700;
   color: rgb(0, 0, 0);
@@ -289,6 +292,11 @@ display: none;
 .title {
   display: none;
 
+}
+
+.flex-item1{
+  background-image: url("cosmicsmall.png");
+  
 }
 
 .image{
